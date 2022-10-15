@@ -1,0 +1,179 @@
+@font-face 
+    font-family:'Bebas Neue'
+    src: url('../css/bebasneuecyrillic.ttf')
+
+html
+    font-family: 'Montserrat', serif
+header
+    padding: 32px 87px 109px 87px
+    min-height: 693px
+.blocks
+    &_price
+        font-family: 'Montserrat'
+        width: 240px
+        height: 40px
+        border: 1px solid #062730
+        border-radius: 12px
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        color: #062730
+        text-align: center
+        padding: 10px 0 10px 0
+        line-height: 18px
+        span
+            color: #C22536
+            font-weight: 600
+    &_phone
+        font-family: 'Montserrat'
+        width: 240px
+        height: 40px
+        border: 1px solid #062730
+        border-radius: 12px
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        color: #062730
+        text-align: center
+        padding: 8px 0 9px 0
+        line-height: 22px
+        span
+            margin-left: 8px
+    &_img
+        display: inline
+.start
+    h1
+        font-family: 'Bebas Neue'
+        font-style: normal
+        color: #062730
+        font-weight: 400
+        font-size: 128px
+        line-height: 128px
+        margin-top: 165px
+    h2
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 500
+        font-size: 20px
+        line-height: 24px
+        color: #062730
+        margin-top: 36px
+    &_block
+        margin-top: 48px
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 493px
+        height: 59px
+        background: #C22536
+        border-radius: 12px
+        a
+            text-decoration: none
+            color: white
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 400
+            font-size: 22px
+.slider
+    min-height: 691px
+    padding: 144px 63px 144px 70px
+    background: #062730
+    &_container
+        position: relative
+        height: 403px
+        width: 640px
+        transition: 0.6s all
+        .hide
+            display: none
+        .show
+            display: block
+            height: 100%
+    &_img1
+        background: url(../img/pacani1.jpeg) center (center/cover) no-repeat
+    &_img2
+        background: url(../img/pacani2.jpeg) center (center/cover) no-repeat
+    &_img3
+        background: url(../img/pacani3.jpeg) center (center/cover) no-repeat
+    &_img4
+        background: url(../img/pacani4.jpeg) center (center/cover) no-repeat
+    &_img5
+        background: url(../img/pacani5.jpeg) center (center/cover) no-repeat
+    &_img6
+        background: url(../img/pacani6.jpeg) center (center/cover) no-repeat
+    &_text
+        padding: 125px 0px 125px 88px
+        text-align: left
+        color: white
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+    &_next
+        position: absolute
+        top: 192px
+        left: 13px
+        cursor: pointer
+    &_prev
+        position: absolute
+        top: 192px
+        right: 13px
+        cursor: pointer
+.team
+    min-height: 1535px
+    padding: 144px 0 105px 0
+    &_header
+        color: #000
+        font-family: 'Bebas Neue'
+        font-style: normal
+        font-weight: 400
+        font-size: 48px
+    .red
+        color: #E52C2C
+        margin-top: 112px
+    &_peoples
+        display: flex
+        flex-flow: column
+        margin-top: 38px
+        min-height: 600px
+        &_people
+            display: flex
+            .rounded
+                display: flex
+                justify-content: center
+                align-items: center
+                width: 126px
+                height: 126px
+                border-radius: 100%
+                background-color: #D9D9D9
+                margin-right: 24px
+                margin-bottom: 32px
+                img
+                    height: 100%
+                    width: 100%
+                    border-radius: 100%
+    &_title
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 600
+        font-size: 20px
+        line-height: 24px
+        color: #020000
+    &_name
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 22px
+        color: #020000
+    &_ol
+        margin-top: 64px
+        li
+            margin-top: 32px
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 400
+            font-size: 20px
+            line-height: 24px
+            &:nth-child(1)
+                margin-top: 0
+@import "media"
